@@ -1,0 +1,21 @@
+/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/lib/cli/validate-engines.js:29
+    throw err
+    ^
+
+Error: ENOENT: no such file or directory, uv_cwd
+    at process.wrappedCwd (node:internal/bootstrap/switches/does_own_process_state:142:28)
+    at process.cwd (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:10:19)
+    at new Config (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/@npmcli/config/lib/index.js:79:19)
+    at new Npm (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/lib/npm.js:67:19)
+    at module.exports (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/lib/cli/entry.js:14:15)
+    at module.exports (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/lib/cli/validate-engines.js:37:10)
+    at module.exports (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/lib/cli.js:12:31)
+    at Object.<anonymous> (/home/jules/.nvm/versions/node/v22.17.1/lib/node_modules/npm/bin/npm-cli.js:2:25)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'uv_cwd'
+}
+
+Node.js v22.17.1
