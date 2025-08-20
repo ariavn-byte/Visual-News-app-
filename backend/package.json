@@ -4,9 +4,11 @@
   "description": "Backend server for the Visual News Source project.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test-apis.js"
   },
-  "keywords": [],
+  "keywords": ["news", "api", "geopolitics", "aggregation"],
   "author": "",
   "license": "ISC",
   "dependencies": {
