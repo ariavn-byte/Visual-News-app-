@@ -1,0 +1,35 @@
+{
+  "name": "visual-news-app",
+  "version": "1.0.0",
+  "description": "Interactive visual news application with geospatial mapping and AI-powered analysis",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run backend",
+    "backend": "cd backend && npm start",
+    "install-backend": "cd backend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run serve-frontend\"",
+    "serve-frontend": "npx http-server . -p 8080 -c-1",
+    "install-all": "npm install && npm run install-backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "visualization",
+    "geospatial",
+    "mapping",
+    "ai",
+    "leaflet",
+    "express",
+    "interactive"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
