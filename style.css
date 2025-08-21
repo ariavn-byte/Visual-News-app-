@@ -66,3 +66,26 @@ html, body {
 .follow-up-input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; box-sizing: border-box; }
 .follow-up-btn { width: 100%; padding: 10px; margin-top: 10px; font-size: 1rem; font-weight: 600; color: white; background-color: #8e44ad; border: none; border-radius: 5px; cursor: pointer; }
 .follow-up-btn:hover { background-color: #732d91; }
+
+/* Map Controls */
+#map-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 401; /* Above map, below panel */
+}
+.map-control-btn {
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.map-control-btn.active {
+    background-color: #8e44ad;
+    color: white;
+    border-color: #732d91;
+}
